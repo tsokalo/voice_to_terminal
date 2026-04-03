@@ -43,8 +43,10 @@ If `setup.sh` adds your user to the `input` group, log out and log back in befor
 
 ```bash
 cd ~/workspace/voice_to_terminal
-.venv/bin/python voice_to_terminal.py
+./run.sh
 ```
+
+`run.sh` activates the local virtual environment and starts `voice_to_terminal.py`.
 
 ## Usage
 
